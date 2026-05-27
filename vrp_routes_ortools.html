@@ -1,0 +1,2407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_68fc28ae505ff3af028f96f5455f9d86 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_68fc28ae505ff3af028f96f5455f9d86" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_68fc28ae505ff3af028f96f5455f9d86 = L.map(
+                "map_68fc28ae505ff3af028f96f5455f9d86",
+                {
+                    center: [-7.28, 112.73],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f0632a23652933483439fc81533e0963 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f0632a23652933483439fc81533e0963.addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var marker_711773bab6129ae471649b6814831683 = L.marker(
+                [-7.2372, 112.6878],
+                {
+}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var icon_64b8315914a8387e58b86aa4b053f6cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab0165432ec978ef080cec1a8dc4ecfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebe4d09ec472d14b8692c40cc0261f4e = $(`<div id="html_ebe4d09ec472d14b8692c40cc0261f4e" style="width: 100.0%; height: 100.0%;">DEPOT</div>`)[0];
+                popup_ab0165432ec978ef080cec1a8dc4ecfc.setContent(html_ebe4d09ec472d14b8692c40cc0261f4e);
+            
+        
+
+        marker_711773bab6129ae471649b6814831683.bindPopup(popup_ab0165432ec978ef080cec1a8dc4ecfc)
+        ;
+
+        
+    
+    
+                marker_711773bab6129ae471649b6814831683.setIcon(icon_64b8315914a8387e58b86aa4b053f6cd);
+            
+    
+            var circle_marker_84c55a42938327346435ac68fa88b787 = L.circleMarker(
+                [-7.2954793, 112.7597789],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_c53eca609c9892879ea398d8d74afdc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d0ce11d201ddd592d7d2714437a0ff3 = $(`<div id="html_3d0ce11d201ddd592d7d2714437a0ff3" style="width: 100.0%; height: 100.0%;">Truk 1 | Alfamart</div>`)[0];
+                popup_c53eca609c9892879ea398d8d74afdc3.setContent(html_3d0ce11d201ddd592d7d2714437a0ff3);
+            
+        
+
+        circle_marker_84c55a42938327346435ac68fa88b787.bindPopup(popup_c53eca609c9892879ea398d8d74afdc3)
+        ;
+
+        
+    
+    
+            var circle_marker_3e54eac14de636f9cfd1c863932082b8 = L.circleMarker(
+                [-7.2999315, 112.7669391],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_dbc492fe56f2f79b55ca50ee294986aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_344f4e18e7862b0e0dfa05d052f72bfe = $(`<div id="html_344f4e18e7862b0e0dfa05d052f72bfe" style="width: 100.0%; height: 100.0%;">Truk 1 | Alfamart</div>`)[0];
+                popup_dbc492fe56f2f79b55ca50ee294986aa.setContent(html_344f4e18e7862b0e0dfa05d052f72bfe);
+            
+        
+
+        circle_marker_3e54eac14de636f9cfd1c863932082b8.bindPopup(popup_dbc492fe56f2f79b55ca50ee294986aa)
+        ;
+
+        
+    
+    
+            var circle_marker_d6b6ebefbe7ffb485b68fc9faeec5ef5 = L.circleMarker(
+                [-7.3014742, 112.7755593],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_d06364f0ac45b0b31ff5e34e93fceaf9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7eb9d84b723630ff859b9d905a2750a = $(`<div id="html_a7eb9d84b723630ff859b9d905a2750a" style="width: 100.0%; height: 100.0%;">Truk 1 | Alfamart</div>`)[0];
+                popup_d06364f0ac45b0b31ff5e34e93fceaf9.setContent(html_a7eb9d84b723630ff859b9d905a2750a);
+            
+        
+
+        circle_marker_d6b6ebefbe7ffb485b68fc9faeec5ef5.bindPopup(popup_d06364f0ac45b0b31ff5e34e93fceaf9)
+        ;
+
+        
+    
+    
+            var circle_marker_2fb66a73cf761974eea929702d434590 = L.circleMarker(
+                [-7.3033612, 112.7788627],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_d6e889e4766df8e3d9c127fad1f58adf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bccdae6a04e9a0c3cbbd92aa36fb2a8e = $(`<div id="html_bccdae6a04e9a0c3cbbd92aa36fb2a8e" style="width: 100.0%; height: 100.0%;">Truk 1 | Alfamart</div>`)[0];
+                popup_d6e889e4766df8e3d9c127fad1f58adf.setContent(html_bccdae6a04e9a0c3cbbd92aa36fb2a8e);
+            
+        
+
+        circle_marker_2fb66a73cf761974eea929702d434590.bindPopup(popup_d6e889e4766df8e3d9c127fad1f58adf)
+        ;
+
+        
+    
+    
+            var circle_marker_e2eceddfa2b100bbcfa624e3ecb2256a = L.circleMarker(
+                [-7.3128836, 112.7852039],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_768a8df2f059d9f1a766e00bfb0e160c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a94eb411ba4647661d5896f79971ab3c = $(`<div id="html_a94eb411ba4647661d5896f79971ab3c" style="width: 100.0%; height: 100.0%;">Truk 1 | Alfamart</div>`)[0];
+                popup_768a8df2f059d9f1a766e00bfb0e160c.setContent(html_a94eb411ba4647661d5896f79971ab3c);
+            
+        
+
+        circle_marker_e2eceddfa2b100bbcfa624e3ecb2256a.bindPopup(popup_768a8df2f059d9f1a766e00bfb0e160c)
+        ;
+
+        
+    
+    
+            var circle_marker_a73690d5afcc0fa1ca1eeaa19dd4ca8e = L.circleMarker(
+                [-7.3208019, 112.78924],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_6e79ba5be49cdb9c9ffe0271a827bd8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7f23de1210e89a2fca8b2722203a115 = $(`<div id="html_b7f23de1210e89a2fca8b2722203a115" style="width: 100.0%; height: 100.0%;">Truk 1 | Alfamart</div>`)[0];
+                popup_6e79ba5be49cdb9c9ffe0271a827bd8f.setContent(html_b7f23de1210e89a2fca8b2722203a115);
+            
+        
+
+        circle_marker_a73690d5afcc0fa1ca1eeaa19dd4ca8e.bindPopup(popup_6e79ba5be49cdb9c9ffe0271a827bd8f)
+        ;
+
+        
+    
+    
+            var circle_marker_01293f01a349999644731a0a01187cc1 = L.circleMarker(
+                [-7.3331737, 112.7957057],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_2e991fc7a5d973976e1cff2cd660db00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93e3e59c955ed6aae28af02c173d3eae = $(`<div id="html_93e3e59c955ed6aae28af02c173d3eae" style="width: 100.0%; height: 100.0%;">Truk 1 | Indomaret</div>`)[0];
+                popup_2e991fc7a5d973976e1cff2cd660db00.setContent(html_93e3e59c955ed6aae28af02c173d3eae);
+            
+        
+
+        circle_marker_01293f01a349999644731a0a01187cc1.bindPopup(popup_2e991fc7a5d973976e1cff2cd660db00)
+        ;
+
+        
+    
+    
+            var circle_marker_46380f9f22fcde4bf28cd258a972e48c = L.circleMarker(
+                [-7.3153042, 112.7899293],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_80b29c74db61a76caae377bce23c5b55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3cd017de429d3d72d75d904c18eee53 = $(`<div id="html_c3cd017de429d3d72d75d904c18eee53" style="width: 100.0%; height: 100.0%;">Truk 1 | Alfamart</div>`)[0];
+                popup_80b29c74db61a76caae377bce23c5b55.setContent(html_c3cd017de429d3d72d75d904c18eee53);
+            
+        
+
+        circle_marker_46380f9f22fcde4bf28cd258a972e48c.bindPopup(popup_80b29c74db61a76caae377bce23c5b55)
+        ;
+
+        
+    
+    
+            var circle_marker_e74b85525f70dc0e1be26014279b25de = L.circleMarker(
+                [-7.3145593, 112.7897649],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_132fdeb09f50c2b47be0a1d2c189ea26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47136023268e8b129081d4df1dfaabda = $(`<div id="html_47136023268e8b129081d4df1dfaabda" style="width: 100.0%; height: 100.0%;">Truk 1 | Indomaret</div>`)[0];
+                popup_132fdeb09f50c2b47be0a1d2c189ea26.setContent(html_47136023268e8b129081d4df1dfaabda);
+            
+        
+
+        circle_marker_e74b85525f70dc0e1be26014279b25de.bindPopup(popup_132fdeb09f50c2b47be0a1d2c189ea26)
+        ;
+
+        
+    
+    
+            var circle_marker_b0f03728513aeba27952bafb13a4d06b = L.circleMarker(
+                [-7.2680699, 112.7965152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_9748a9c748ee722c57129827236f0204 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d430c7ecbfafab263ee4c2609ac71871 = $(`<div id="html_d430c7ecbfafab263ee4c2609ac71871" style="width: 100.0%; height: 100.0%;">Truk 1 | Indomaret</div>`)[0];
+                popup_9748a9c748ee722c57129827236f0204.setContent(html_d430c7ecbfafab263ee4c2609ac71871);
+            
+        
+
+        circle_marker_b0f03728513aeba27952bafb13a4d06b.bindPopup(popup_9748a9c748ee722c57129827236f0204)
+        ;
+
+        
+    
+    
+            var poly_line_0a32a1ec3854fd41d7aa9f06619dee08 = L.polyline(
+                [[-7.2372, 112.6878], [-7.2954793, 112.7597789], [-7.2999315, 112.7669391], [-7.3014742, 112.7755593], [-7.3033612, 112.7788627], [-7.3128836, 112.7852039], [-7.3208019, 112.78924], [-7.3331737, 112.7957057], [-7.3153042, 112.7899293], [-7.3145593, 112.7897649], [-7.2680699, 112.7965152], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_ea8a9d577d56c59be705221192bfafbd = L.circleMarker(
+                [-7.2929912, 112.7360482],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_dbc433286a40be237ba8a03a6e000213 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c142e2dc2c9176e726119161c614186 = $(`<div id="html_6c142e2dc2c9176e726119161c614186" style="width: 100.0%; height: 100.0%;">Truk 2 | Alfamart</div>`)[0];
+                popup_dbc433286a40be237ba8a03a6e000213.setContent(html_6c142e2dc2c9176e726119161c614186);
+            
+        
+
+        circle_marker_ea8a9d577d56c59be705221192bfafbd.bindPopup(popup_dbc433286a40be237ba8a03a6e000213)
+        ;
+
+        
+    
+    
+            var circle_marker_bec97e57a9147bfb64d230d53e3101c4 = L.circleMarker(
+                [-7.2965733, 112.7424636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_66836a95758abf0865781dd7b8f759e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68c1b053917f03145e5be8c2a7183bef = $(`<div id="html_68c1b053917f03145e5be8c2a7183bef" style="width: 100.0%; height: 100.0%;">Truk 2 | Alfamart</div>`)[0];
+                popup_66836a95758abf0865781dd7b8f759e6.setContent(html_68c1b053917f03145e5be8c2a7183bef);
+            
+        
+
+        circle_marker_bec97e57a9147bfb64d230d53e3101c4.bindPopup(popup_66836a95758abf0865781dd7b8f759e6)
+        ;
+
+        
+    
+    
+            var circle_marker_f6a9d8c01be384186099d7df1918b5c2 = L.circleMarker(
+                [-7.3069252, 112.7628525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_30ee8111d596dd5eb3f2d6ada0e28692 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb38fcc071913305842b248f36f474a8 = $(`<div id="html_fb38fcc071913305842b248f36f474a8" style="width: 100.0%; height: 100.0%;">Truk 2 | Alfamart</div>`)[0];
+                popup_30ee8111d596dd5eb3f2d6ada0e28692.setContent(html_fb38fcc071913305842b248f36f474a8);
+            
+        
+
+        circle_marker_f6a9d8c01be384186099d7df1918b5c2.bindPopup(popup_30ee8111d596dd5eb3f2d6ada0e28692)
+        ;
+
+        
+    
+    
+            var circle_marker_56e912ca161a5691f8a70ad12db62868 = L.circleMarker(
+                [-7.3180263, 112.781026],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_f38e3c0a5dacecca95a666d68219d4d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_415763b049b93e5edb56b5256c088fa8 = $(`<div id="html_415763b049b93e5edb56b5256c088fa8" style="width: 100.0%; height: 100.0%;">Truk 2 | Indomaret</div>`)[0];
+                popup_f38e3c0a5dacecca95a666d68219d4d6.setContent(html_415763b049b93e5edb56b5256c088fa8);
+            
+        
+
+        circle_marker_56e912ca161a5691f8a70ad12db62868.bindPopup(popup_f38e3c0a5dacecca95a666d68219d4d6)
+        ;
+
+        
+    
+    
+            var circle_marker_8d7bd32af8e9818c3c7631176add8b6c = L.circleMarker(
+                [-7.3204556, 112.766118],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_419e4495b79ecdbceabef63798529c43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_743261ab114f91290c4fd33837414b47 = $(`<div id="html_743261ab114f91290c4fd33837414b47" style="width: 100.0%; height: 100.0%;">Truk 2 | Indomaret</div>`)[0];
+                popup_419e4495b79ecdbceabef63798529c43.setContent(html_743261ab114f91290c4fd33837414b47);
+            
+        
+
+        circle_marker_8d7bd32af8e9818c3c7631176add8b6c.bindPopup(popup_419e4495b79ecdbceabef63798529c43)
+        ;
+
+        
+    
+    
+            var circle_marker_e521ad5fabb75c5e580457121d167d4d = L.circleMarker(
+                [-7.3202009, 112.7569205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_8cda2e328a9f047061ff10dfd7f2860e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ad8bebc00c30690fa448dae74944274 = $(`<div id="html_4ad8bebc00c30690fa448dae74944274" style="width: 100.0%; height: 100.0%;">Truk 2 | Indomaret</div>`)[0];
+                popup_8cda2e328a9f047061ff10dfd7f2860e.setContent(html_4ad8bebc00c30690fa448dae74944274);
+            
+        
+
+        circle_marker_e521ad5fabb75c5e580457121d167d4d.bindPopup(popup_8cda2e328a9f047061ff10dfd7f2860e)
+        ;
+
+        
+    
+    
+            var circle_marker_7d14fe28ccc1b1688407c4cb5df1d214 = L.circleMarker(
+                [-7.3117836, 112.7464173],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_68a47f3c080087fd567bcdd8963ca135 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f56d6e15ac8c8b2af721119f567a534 = $(`<div id="html_9f56d6e15ac8c8b2af721119f567a534" style="width: 100.0%; height: 100.0%;">Truk 2 | Indomaret</div>`)[0];
+                popup_68a47f3c080087fd567bcdd8963ca135.setContent(html_9f56d6e15ac8c8b2af721119f567a534);
+            
+        
+
+        circle_marker_7d14fe28ccc1b1688407c4cb5df1d214.bindPopup(popup_68a47f3c080087fd567bcdd8963ca135)
+        ;
+
+        
+    
+    
+            var circle_marker_d717d4da78de975f53d5ed5a4d5dcc4b = L.circleMarker(
+                [-7.3089457, 112.7446046],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_456d10d10059b303a03bc5784dd87617 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d57d31e082f2ec512cbdc4dfdacb5673 = $(`<div id="html_d57d31e082f2ec512cbdc4dfdacb5673" style="width: 100.0%; height: 100.0%;">Truk 2 | Indomaret</div>`)[0];
+                popup_456d10d10059b303a03bc5784dd87617.setContent(html_d57d31e082f2ec512cbdc4dfdacb5673);
+            
+        
+
+        circle_marker_d717d4da78de975f53d5ed5a4d5dcc4b.bindPopup(popup_456d10d10059b303a03bc5784dd87617)
+        ;
+
+        
+    
+    
+            var circle_marker_f89cf8d3f396e8f6da98927fea57c8a9 = L.circleMarker(
+                [-7.3020804, 112.7389109],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_6126628a31a867abc38c6aca8df2daba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4014fbef8f55ef47522df23852574a6 = $(`<div id="html_e4014fbef8f55ef47522df23852574a6" style="width: 100.0%; height: 100.0%;">Truk 2 | Alfamart</div>`)[0];
+                popup_6126628a31a867abc38c6aca8df2daba.setContent(html_e4014fbef8f55ef47522df23852574a6);
+            
+        
+
+        circle_marker_f89cf8d3f396e8f6da98927fea57c8a9.bindPopup(popup_6126628a31a867abc38c6aca8df2daba)
+        ;
+
+        
+    
+    
+            var circle_marker_8bee64a5cadcfaf1431cca022a21f5d9 = L.circleMarker(
+                [-7.2937292, 112.7352438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_188c361a24483fc670688450d6821278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a478f704068653c8d04eaf760533294 = $(`<div id="html_1a478f704068653c8d04eaf760533294" style="width: 100.0%; height: 100.0%;">Truk 2 | Indomaret</div>`)[0];
+                popup_188c361a24483fc670688450d6821278.setContent(html_1a478f704068653c8d04eaf760533294);
+            
+        
+
+        circle_marker_8bee64a5cadcfaf1431cca022a21f5d9.bindPopup(popup_188c361a24483fc670688450d6821278)
+        ;
+
+        
+    
+    
+            var poly_line_4730e2778ef6ff331ed18fa84da822c5 = L.polyline(
+                [[-7.2372, 112.6878], [-7.2929912, 112.7360482], [-7.2965733, 112.7424636], [-7.3069252, 112.7628525], [-7.3180263, 112.781026], [-7.3204556, 112.766118], [-7.3202009, 112.7569205], [-7.3117836, 112.7464173], [-7.3089457, 112.7446046], [-7.3020804, 112.7389109], [-7.2937292, 112.7352438], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_50eebe8b3307b09be497b48266af3200 = L.circleMarker(
+                [-7.2759928, 112.6529369],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_24c6b30a563f8c7eb2bde8b9f7269dec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30bbf1a63da2a63732a1c106ce176f72 = $(`<div id="html_30bbf1a63da2a63732a1c106ce176f72" style="width: 100.0%; height: 100.0%;">Truk 3 | Alfamart</div>`)[0];
+                popup_24c6b30a563f8c7eb2bde8b9f7269dec.setContent(html_30bbf1a63da2a63732a1c106ce176f72);
+            
+        
+
+        circle_marker_50eebe8b3307b09be497b48266af3200.bindPopup(popup_24c6b30a563f8c7eb2bde8b9f7269dec)
+        ;
+
+        
+    
+    
+            var circle_marker_f870155ed9ac07a0c113eeb6fb6f25dc = L.circleMarker(
+                [-7.2793674, 112.6583221],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_4a2aa29d583ec8fd560fb1a7d88aeda8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65827da1c5d59af52cff0ad2830f5ca7 = $(`<div id="html_65827da1c5d59af52cff0ad2830f5ca7" style="width: 100.0%; height: 100.0%;">Truk 3 | Indomaret</div>`)[0];
+                popup_4a2aa29d583ec8fd560fb1a7d88aeda8.setContent(html_65827da1c5d59af52cff0ad2830f5ca7);
+            
+        
+
+        circle_marker_f870155ed9ac07a0c113eeb6fb6f25dc.bindPopup(popup_4a2aa29d583ec8fd560fb1a7d88aeda8)
+        ;
+
+        
+    
+    
+            var circle_marker_1e2e8b56613930bc1895eef5e8063101 = L.circleMarker(
+                [-7.3008001, 112.6620383],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_c7217ea91184cac4b5fba908c58b32ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd7adddf4823e43f3651f723617cbda2 = $(`<div id="html_bd7adddf4823e43f3651f723617cbda2" style="width: 100.0%; height: 100.0%;">Truk 3 | Indomaret</div>`)[0];
+                popup_c7217ea91184cac4b5fba908c58b32ea.setContent(html_bd7adddf4823e43f3651f723617cbda2);
+            
+        
+
+        circle_marker_1e2e8b56613930bc1895eef5e8063101.bindPopup(popup_c7217ea91184cac4b5fba908c58b32ea)
+        ;
+
+        
+    
+    
+            var circle_marker_fd74cb59c9e2fa248e85db7c92120ac3 = L.circleMarker(
+                [-7.3082683, 112.6705488],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_6e7e62f402d82b34ca8bb8e04d9e17c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82cb1682e57186a91ef7463ec18039b6 = $(`<div id="html_82cb1682e57186a91ef7463ec18039b6" style="width: 100.0%; height: 100.0%;">Truk 3 | Indomaret</div>`)[0];
+                popup_6e7e62f402d82b34ca8bb8e04d9e17c8.setContent(html_82cb1682e57186a91ef7463ec18039b6);
+            
+        
+
+        circle_marker_fd74cb59c9e2fa248e85db7c92120ac3.bindPopup(popup_6e7e62f402d82b34ca8bb8e04d9e17c8)
+        ;
+
+        
+    
+    
+            var circle_marker_1f045964da84d6b02bfdd2ae7ba227c0 = L.circleMarker(
+                [-7.3308354, 112.7108362],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_5844457e77252aebc8b4dd9457238eb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d14b42ff25cb244eadb80f16abe2d52a = $(`<div id="html_d14b42ff25cb244eadb80f16abe2d52a" style="width: 100.0%; height: 100.0%;">Truk 3 | Alfamart</div>`)[0];
+                popup_5844457e77252aebc8b4dd9457238eb1.setContent(html_d14b42ff25cb244eadb80f16abe2d52a);
+            
+        
+
+        circle_marker_1f045964da84d6b02bfdd2ae7ba227c0.bindPopup(popup_5844457e77252aebc8b4dd9457238eb1)
+        ;
+
+        
+    
+    
+            var circle_marker_c718686cdab7373d14e1ffbdcb6ce72f = L.circleMarker(
+                [-7.3288852, 112.7117309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_a941c1154145af395c2cd86bd2ad6fb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5053f7934cc425f02c9d952e8c8adc20 = $(`<div id="html_5053f7934cc425f02c9d952e8c8adc20" style="width: 100.0%; height: 100.0%;">Truk 3 | Indomaret</div>`)[0];
+                popup_a941c1154145af395c2cd86bd2ad6fb9.setContent(html_5053f7934cc425f02c9d952e8c8adc20);
+            
+        
+
+        circle_marker_c718686cdab7373d14e1ffbdcb6ce72f.bindPopup(popup_a941c1154145af395c2cd86bd2ad6fb9)
+        ;
+
+        
+    
+    
+            var circle_marker_ec14ee6b76118be559bf8a9d35855cc3 = L.circleMarker(
+                [-7.3129323, 112.7066714],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_89009d6a8a1dcb877577b393a824a573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e33b075afcbe9a6da70a89682e2b3b06 = $(`<div id="html_e33b075afcbe9a6da70a89682e2b3b06" style="width: 100.0%; height: 100.0%;">Truk 3 | Indomaret</div>`)[0];
+                popup_89009d6a8a1dcb877577b393a824a573.setContent(html_e33b075afcbe9a6da70a89682e2b3b06);
+            
+        
+
+        circle_marker_ec14ee6b76118be559bf8a9d35855cc3.bindPopup(popup_89009d6a8a1dcb877577b393a824a573)
+        ;
+
+        
+    
+    
+            var circle_marker_c91518fcf8cee80e49cc0e147efd1426 = L.circleMarker(
+                [-7.3114818, 112.7104387],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_e3de8a8a45925a4b24942ab3d8d9a72b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_711738cc8e32fd147106724a40db4c83 = $(`<div id="html_711738cc8e32fd147106724a40db4c83" style="width: 100.0%; height: 100.0%;">Truk 3 | Indomaret</div>`)[0];
+                popup_e3de8a8a45925a4b24942ab3d8d9a72b.setContent(html_711738cc8e32fd147106724a40db4c83);
+            
+        
+
+        circle_marker_c91518fcf8cee80e49cc0e147efd1426.bindPopup(popup_e3de8a8a45925a4b24942ab3d8d9a72b)
+        ;
+
+        
+    
+    
+            var circle_marker_f3065cdd17a48fb80dce041266a8bf2f = L.circleMarker(
+                [-7.2938114, 112.6971368],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_05e24ab488f48030ab7570cdb3446dfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddd3f400743f363d22465878d7125f3b = $(`<div id="html_ddd3f400743f363d22465878d7125f3b" style="width: 100.0%; height: 100.0%;">Truk 3 | Alfamart</div>`)[0];
+                popup_05e24ab488f48030ab7570cdb3446dfe.setContent(html_ddd3f400743f363d22465878d7125f3b);
+            
+        
+
+        circle_marker_f3065cdd17a48fb80dce041266a8bf2f.bindPopup(popup_05e24ab488f48030ab7570cdb3446dfe)
+        ;
+
+        
+    
+    
+            var circle_marker_fd6a053c882429767ab73fa5c6f46e39 = L.circleMarker(
+                [-7.2856849, 112.6963801],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_383e26ba248485ec7ff9ee858feaad73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dc02cf332c4f90762ef927bfe224197 = $(`<div id="html_4dc02cf332c4f90762ef927bfe224197" style="width: 100.0%; height: 100.0%;">Truk 3 | Indomaret</div>`)[0];
+                popup_383e26ba248485ec7ff9ee858feaad73.setContent(html_4dc02cf332c4f90762ef927bfe224197);
+            
+        
+
+        circle_marker_fd6a053c882429767ab73fa5c6f46e39.bindPopup(popup_383e26ba248485ec7ff9ee858feaad73)
+        ;
+
+        
+    
+    
+            var poly_line_cd3c29ed702e2be35a3ffc959178653b = L.polyline(
+                [[-7.2372, 112.6878], [-7.2759928, 112.6529369], [-7.2793674, 112.6583221], [-7.3008001, 112.6620383], [-7.3082683, 112.6705488], [-7.3308354, 112.7108362], [-7.3288852, 112.7117309], [-7.3129323, 112.7066714], [-7.3114818, 112.7104387], [-7.2938114, 112.6971368], [-7.2856849, 112.6963801], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_067dc7119ceb55338c139c9c25f04a57 = L.circleMarker(
+                [-7.269284, 112.7413436],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_2e037388e5d275fb584c93b49db55db6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9ef8320461155fe747ab09c1c1051a0 = $(`<div id="html_c9ef8320461155fe747ab09c1c1051a0" style="width: 100.0%; height: 100.0%;">Truk 4 | Indomaret</div>`)[0];
+                popup_2e037388e5d275fb584c93b49db55db6.setContent(html_c9ef8320461155fe747ab09c1c1051a0);
+            
+        
+
+        circle_marker_067dc7119ceb55338c139c9c25f04a57.bindPopup(popup_2e037388e5d275fb584c93b49db55db6)
+        ;
+
+        
+    
+    
+            var circle_marker_b6281d46df952d4c64facab86d9096c0 = L.circleMarker(
+                [-7.272945, 112.7426644],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_f296a81d8aeb61953899b83b32e51ccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7147aa0afeff49f89246f25bbb5d2d9 = $(`<div id="html_c7147aa0afeff49f89246f25bbb5d2d9" style="width: 100.0%; height: 100.0%;">Truk 4 | Indomaret</div>`)[0];
+                popup_f296a81d8aeb61953899b83b32e51ccb.setContent(html_c7147aa0afeff49f89246f25bbb5d2d9);
+            
+        
+
+        circle_marker_b6281d46df952d4c64facab86d9096c0.bindPopup(popup_f296a81d8aeb61953899b83b32e51ccb)
+        ;
+
+        
+    
+    
+            var circle_marker_0489a2bb5934ab6674c7d783802fdd93 = L.circleMarker(
+                [-7.2771574, 112.7507919],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_cf8bde224b51ee3ec6ed2ebf62bd5c3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c83201a7e72f3f755f164fccee05e52c = $(`<div id="html_c83201a7e72f3f755f164fccee05e52c" style="width: 100.0%; height: 100.0%;">Truk 4 | Indomaret</div>`)[0];
+                popup_cf8bde224b51ee3ec6ed2ebf62bd5c3a.setContent(html_c83201a7e72f3f755f164fccee05e52c);
+            
+        
+
+        circle_marker_0489a2bb5934ab6674c7d783802fdd93.bindPopup(popup_cf8bde224b51ee3ec6ed2ebf62bd5c3a)
+        ;
+
+        
+    
+    
+            var circle_marker_6850e7137b61b24b9154541b2a937c31 = L.circleMarker(
+                [-7.2784425, 112.7583423],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_82edc7765dfe60ea64b329993a72ec4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2d8d39d9c6756dbf1d2ba2df996c57d = $(`<div id="html_a2d8d39d9c6756dbf1d2ba2df996c57d" style="width: 100.0%; height: 100.0%;">Truk 4 | Indomaret</div>`)[0];
+                popup_82edc7765dfe60ea64b329993a72ec4a.setContent(html_a2d8d39d9c6756dbf1d2ba2df996c57d);
+            
+        
+
+        circle_marker_6850e7137b61b24b9154541b2a937c31.bindPopup(popup_82edc7765dfe60ea64b329993a72ec4a)
+        ;
+
+        
+    
+    
+            var circle_marker_c939107b0ecadc38b5f6f93ebe84064c = L.circleMarker(
+                [-7.2793397, 112.7591856],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_97db8495c2994c710faf56394b37c6f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30ec444fb17f6f814d002f503d1a1697 = $(`<div id="html_30ec444fb17f6f814d002f503d1a1697" style="width: 100.0%; height: 100.0%;">Truk 4 | Alfamart</div>`)[0];
+                popup_97db8495c2994c710faf56394b37c6f7.setContent(html_30ec444fb17f6f814d002f503d1a1697);
+            
+        
+
+        circle_marker_c939107b0ecadc38b5f6f93ebe84064c.bindPopup(popup_97db8495c2994c710faf56394b37c6f7)
+        ;
+
+        
+    
+    
+            var circle_marker_8dfc61f1d8ba9ac5e79ec1a76a12552c = L.circleMarker(
+                [-7.2744317, 112.7622105],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_448bcba9d2767edc88fa4a7d5a62e2db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2b91999fd5a564c5add904d8b69dfae = $(`<div id="html_d2b91999fd5a564c5add904d8b69dfae" style="width: 100.0%; height: 100.0%;">Truk 4 | Indomaret</div>`)[0];
+                popup_448bcba9d2767edc88fa4a7d5a62e2db.setContent(html_d2b91999fd5a564c5add904d8b69dfae);
+            
+        
+
+        circle_marker_8dfc61f1d8ba9ac5e79ec1a76a12552c.bindPopup(popup_448bcba9d2767edc88fa4a7d5a62e2db)
+        ;
+
+        
+    
+    
+            var circle_marker_f794ef18bf984557bf68f20591076c8f = L.circleMarker(
+                [-7.2788975, 112.7612177],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_751fe613d066253ee258599448b68e57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_936faf0cf37eb6fcbcf6e5cc2a695241 = $(`<div id="html_936faf0cf37eb6fcbcf6e5cc2a695241" style="width: 100.0%; height: 100.0%;">Truk 4 | Alfamart</div>`)[0];
+                popup_751fe613d066253ee258599448b68e57.setContent(html_936faf0cf37eb6fcbcf6e5cc2a695241);
+            
+        
+
+        circle_marker_f794ef18bf984557bf68f20591076c8f.bindPopup(popup_751fe613d066253ee258599448b68e57)
+        ;
+
+        
+    
+    
+            var circle_marker_b254a93460d5a85f679ad6281292d4f5 = L.circleMarker(
+                [-7.2930784, 112.7621518],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_23bd5a6b7001420e83775ca6e6bbd366 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89579d68579c7e725249e6fcc728263c = $(`<div id="html_89579d68579c7e725249e6fcc728263c" style="width: 100.0%; height: 100.0%;">Truk 4 | Indomaret</div>`)[0];
+                popup_23bd5a6b7001420e83775ca6e6bbd366.setContent(html_89579d68579c7e725249e6fcc728263c);
+            
+        
+
+        circle_marker_b254a93460d5a85f679ad6281292d4f5.bindPopup(popup_23bd5a6b7001420e83775ca6e6bbd366)
+        ;
+
+        
+    
+    
+            var circle_marker_d01aba176698bd1bf1d77429037c01d5 = L.circleMarker(
+                [-7.291546, 112.7598956],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_eea9566fac52c7090278e2a2c203d467 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f00a0fc7dc5b1f22e7835f97dd92e0fa = $(`<div id="html_f00a0fc7dc5b1f22e7835f97dd92e0fa" style="width: 100.0%; height: 100.0%;">Truk 4 | Alfamart</div>`)[0];
+                popup_eea9566fac52c7090278e2a2c203d467.setContent(html_f00a0fc7dc5b1f22e7835f97dd92e0fa);
+            
+        
+
+        circle_marker_d01aba176698bd1bf1d77429037c01d5.bindPopup(popup_eea9566fac52c7090278e2a2c203d467)
+        ;
+
+        
+    
+    
+            var circle_marker_25aa75f730fd52cbdf01a351374eea26 = L.circleMarker(
+                [-7.2805425, 112.7465505],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_7fc788beb38c2228d71c07455d715f55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ad491d34188cacff251bf1ca0647d57 = $(`<div id="html_7ad491d34188cacff251bf1ca0647d57" style="width: 100.0%; height: 100.0%;">Truk 4 | Indomaret</div>`)[0];
+                popup_7fc788beb38c2228d71c07455d715f55.setContent(html_7ad491d34188cacff251bf1ca0647d57);
+            
+        
+
+        circle_marker_25aa75f730fd52cbdf01a351374eea26.bindPopup(popup_7fc788beb38c2228d71c07455d715f55)
+        ;
+
+        
+    
+    
+            var poly_line_7dbf24594c6404f96d074fd2584b55ac = L.polyline(
+                [[-7.2372, 112.6878], [-7.269284, 112.7413436], [-7.272945, 112.7426644], [-7.2771574, 112.7507919], [-7.2784425, 112.7583423], [-7.2793397, 112.7591856], [-7.2744317, 112.7622105], [-7.2788975, 112.7612177], [-7.2930784, 112.7621518], [-7.291546, 112.7598956], [-7.2805425, 112.7465505], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_bdb509f65abaaf20929bc2b5bd9d71ff = L.circleMarker(
+                [-7.2657213, 112.7471543],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_18631038bc9ce91d1c58dc25e290a9ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5cd70a3e66b2a0a3ceb74bf8e1bdd76 = $(`<div id="html_e5cd70a3e66b2a0a3ceb74bf8e1bdd76" style="width: 100.0%; height: 100.0%;">Truk 5 | Alfamart</div>`)[0];
+                popup_18631038bc9ce91d1c58dc25e290a9ca.setContent(html_e5cd70a3e66b2a0a3ceb74bf8e1bdd76);
+            
+        
+
+        circle_marker_bdb509f65abaaf20929bc2b5bd9d71ff.bindPopup(popup_18631038bc9ce91d1c58dc25e290a9ca)
+        ;
+
+        
+    
+    
+            var circle_marker_dc62677777952cd3cab799bcf69d29b5 = L.circleMarker(
+                [-7.2651285, 112.7520018],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_8a76b0a5f45f8fef4daba3d45efe793a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1caff86c47deb0b40ebd8aba8feea88d = $(`<div id="html_1caff86c47deb0b40ebd8aba8feea88d" style="width: 100.0%; height: 100.0%;">Truk 5 | Indomaret</div>`)[0];
+                popup_8a76b0a5f45f8fef4daba3d45efe793a.setContent(html_1caff86c47deb0b40ebd8aba8feea88d);
+            
+        
+
+        circle_marker_dc62677777952cd3cab799bcf69d29b5.bindPopup(popup_8a76b0a5f45f8fef4daba3d45efe793a)
+        ;
+
+        
+    
+    
+            var circle_marker_38351d21d39f81637f5726be3ae68389 = L.circleMarker(
+                [-7.2656067, 112.7526649],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_8a43873d3b2dd81d887c63b5722f9104 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24cdad455561f9871948802445e6891e = $(`<div id="html_24cdad455561f9871948802445e6891e" style="width: 100.0%; height: 100.0%;">Truk 5 | Alfamart</div>`)[0];
+                popup_8a43873d3b2dd81d887c63b5722f9104.setContent(html_24cdad455561f9871948802445e6891e);
+            
+        
+
+        circle_marker_38351d21d39f81637f5726be3ae68389.bindPopup(popup_8a43873d3b2dd81d887c63b5722f9104)
+        ;
+
+        
+    
+    
+            var circle_marker_c95c087f242f525ba1d660570a66537d = L.circleMarker(
+                [-7.2651518, 112.7526648],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_7f58cc9323d94e7b1526fc9a85800d80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c373a6d14c6d125318e47c1fdec7ef8 = $(`<div id="html_0c373a6d14c6d125318e47c1fdec7ef8" style="width: 100.0%; height: 100.0%;">Truk 5 | Indomaret</div>`)[0];
+                popup_7f58cc9323d94e7b1526fc9a85800d80.setContent(html_0c373a6d14c6d125318e47c1fdec7ef8);
+            
+        
+
+        circle_marker_c95c087f242f525ba1d660570a66537d.bindPopup(popup_7f58cc9323d94e7b1526fc9a85800d80)
+        ;
+
+        
+    
+    
+            var circle_marker_8dee479dc7f8a04ae383ceae78b4a1f9 = L.circleMarker(
+                [-7.2581566, 112.7541049],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_0df9b48c85994a4817a5769bf3449c04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7de50c2f856363e99cbe281f140f7d5 = $(`<div id="html_f7de50c2f856363e99cbe281f140f7d5" style="width: 100.0%; height: 100.0%;">Truk 5 | Alfamart</div>`)[0];
+                popup_0df9b48c85994a4817a5769bf3449c04.setContent(html_f7de50c2f856363e99cbe281f140f7d5);
+            
+        
+
+        circle_marker_8dee479dc7f8a04ae383ceae78b4a1f9.bindPopup(popup_0df9b48c85994a4817a5769bf3449c04)
+        ;
+
+        
+    
+    
+            var circle_marker_134189798485ef10f687ad6f321b0cfa = L.circleMarker(
+                [-7.2529732, 112.7548511],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_d98b91238175dd9b67fe89df5e1fed35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e0ad0212fe394b32f6400875ad799d5 = $(`<div id="html_1e0ad0212fe394b32f6400875ad799d5" style="width: 100.0%; height: 100.0%;">Truk 5 | Indomaret</div>`)[0];
+                popup_d98b91238175dd9b67fe89df5e1fed35.setContent(html_1e0ad0212fe394b32f6400875ad799d5);
+            
+        
+
+        circle_marker_134189798485ef10f687ad6f321b0cfa.bindPopup(popup_d98b91238175dd9b67fe89df5e1fed35)
+        ;
+
+        
+    
+    
+            var circle_marker_feb60c491387c9f015cde82ed01805be = L.circleMarker(
+                [-7.2534643, 112.761321],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_1675c10fb42807f58be897cf71cb924f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_240cbbc7298db439a52815a738567955 = $(`<div id="html_240cbbc7298db439a52815a738567955" style="width: 100.0%; height: 100.0%;">Truk 5 | Indomaret</div>`)[0];
+                popup_1675c10fb42807f58be897cf71cb924f.setContent(html_240cbbc7298db439a52815a738567955);
+            
+        
+
+        circle_marker_feb60c491387c9f015cde82ed01805be.bindPopup(popup_1675c10fb42807f58be897cf71cb924f)
+        ;
+
+        
+    
+    
+            var circle_marker_8448946a79e3a2c2c405084eec9e2e6d = L.circleMarker(
+                [-7.274157, 112.7558482],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_858c0cfa01650a4dd0c3e1dc5ac70fb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e971f70a46fffa6ad37c6c388b86d55 = $(`<div id="html_0e971f70a46fffa6ad37c6c388b86d55" style="width: 100.0%; height: 100.0%;">Truk 5 | Indomaret</div>`)[0];
+                popup_858c0cfa01650a4dd0c3e1dc5ac70fb2.setContent(html_0e971f70a46fffa6ad37c6c388b86d55);
+            
+        
+
+        circle_marker_8448946a79e3a2c2c405084eec9e2e6d.bindPopup(popup_858c0cfa01650a4dd0c3e1dc5ac70fb2)
+        ;
+
+        
+    
+    
+            var circle_marker_ed8e631fe9ed239b3b5f34acf2e073db = L.circleMarker(
+                [-7.2729361, 112.7477986],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_bf99dbc600a45d19d5480516c681f1a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bab9f0fb174a803363ec82ea8c13adc = $(`<div id="html_1bab9f0fb174a803363ec82ea8c13adc" style="width: 100.0%; height: 100.0%;">Truk 5 | Alfamart</div>`)[0];
+                popup_bf99dbc600a45d19d5480516c681f1a8.setContent(html_1bab9f0fb174a803363ec82ea8c13adc);
+            
+        
+
+        circle_marker_ed8e631fe9ed239b3b5f34acf2e073db.bindPopup(popup_bf99dbc600a45d19d5480516c681f1a8)
+        ;
+
+        
+    
+    
+            var circle_marker_84c8f3c0b82e421ddf1b8882ea29dd4d = L.circleMarker(
+                [-7.2660694, 112.7408681],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_1f293cdcd7a689fab3448b807e1975cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_655097cdc244c663aef7b9bab70cd748 = $(`<div id="html_655097cdc244c663aef7b9bab70cd748" style="width: 100.0%; height: 100.0%;">Truk 5 | Alfamart</div>`)[0];
+                popup_1f293cdcd7a689fab3448b807e1975cc.setContent(html_655097cdc244c663aef7b9bab70cd748);
+            
+        
+
+        circle_marker_84c8f3c0b82e421ddf1b8882ea29dd4d.bindPopup(popup_1f293cdcd7a689fab3448b807e1975cc)
+        ;
+
+        
+    
+    
+            var poly_line_1713e707e335a04fa4dd9edc60c9bfd6 = L.polyline(
+                [[-7.2372, 112.6878], [-7.2657213, 112.7471543], [-7.2651285, 112.7520018], [-7.2656067, 112.7526649], [-7.2651518, 112.7526648], [-7.2581566, 112.7541049], [-7.2529732, 112.7548511], [-7.2534643, 112.761321], [-7.274157, 112.7558482], [-7.2729361, 112.7477986], [-7.2660694, 112.7408681], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_04b9c26d1c14a40331e86c91aaa9a108 = L.circleMarker(
+                [-7.244732, 112.7155975],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_9f33c3c3ca49d65811d56e35f8879480 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce42d850368be816aa3e35e936628efe = $(`<div id="html_ce42d850368be816aa3e35e936628efe" style="width: 100.0%; height: 100.0%;">Truk 6 | Indomaret</div>`)[0];
+                popup_9f33c3c3ca49d65811d56e35f8879480.setContent(html_ce42d850368be816aa3e35e936628efe);
+            
+        
+
+        circle_marker_04b9c26d1c14a40331e86c91aaa9a108.bindPopup(popup_9f33c3c3ca49d65811d56e35f8879480)
+        ;
+
+        
+    
+    
+            var circle_marker_fc5b32d54a5806d8f652937e71f90bdc = L.circleMarker(
+                [-7.2482235, 112.7312195],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_e4d149a833fa296da07fa5b1a267e70c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be751a210250887488d39948c69a60bb = $(`<div id="html_be751a210250887488d39948c69a60bb" style="width: 100.0%; height: 100.0%;">Truk 6 | Alfamart</div>`)[0];
+                popup_e4d149a833fa296da07fa5b1a267e70c.setContent(html_be751a210250887488d39948c69a60bb);
+            
+        
+
+        circle_marker_fc5b32d54a5806d8f652937e71f90bdc.bindPopup(popup_e4d149a833fa296da07fa5b1a267e70c)
+        ;
+
+        
+    
+    
+            var circle_marker_25433adb6e24ae4b2298c235254f7c0e = L.circleMarker(
+                [-7.2521183, 112.7442174],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_f0cd27e221dddeb0788f0547b8b0a9fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a64f56e0fc451f8d72a7e8fcebd3ec1d = $(`<div id="html_a64f56e0fc451f8d72a7e8fcebd3ec1d" style="width: 100.0%; height: 100.0%;">Truk 6 | Indomaret</div>`)[0];
+                popup_f0cd27e221dddeb0788f0547b8b0a9fc.setContent(html_a64f56e0fc451f8d72a7e8fcebd3ec1d);
+            
+        
+
+        circle_marker_25433adb6e24ae4b2298c235254f7c0e.bindPopup(popup_f0cd27e221dddeb0788f0547b8b0a9fc)
+        ;
+
+        
+    
+    
+            var circle_marker_32b799c0d009c264ffda8eff2d7da6be = L.circleMarker(
+                [-7.2597952, 112.74425],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_705d3fd78d00ffc387ba74599713f295 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89e377a04870de7830a920a8382d477f = $(`<div id="html_89e377a04870de7830a920a8382d477f" style="width: 100.0%; height: 100.0%;">Truk 6 | Indomaret</div>`)[0];
+                popup_705d3fd78d00ffc387ba74599713f295.setContent(html_89e377a04870de7830a920a8382d477f);
+            
+        
+
+        circle_marker_32b799c0d009c264ffda8eff2d7da6be.bindPopup(popup_705d3fd78d00ffc387ba74599713f295)
+        ;
+
+        
+    
+    
+            var circle_marker_c58130bde42c7646478980e13a8f5fa4 = L.circleMarker(
+                [-7.2604749, 112.7363576],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_24c3a51597186e34386c96038a8d2cb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9ca93d6c4fa272be52ade8c0c40910b = $(`<div id="html_a9ca93d6c4fa272be52ade8c0c40910b" style="width: 100.0%; height: 100.0%;">Truk 6 | Alfamart</div>`)[0];
+                popup_24c3a51597186e34386c96038a8d2cb7.setContent(html_a9ca93d6c4fa272be52ade8c0c40910b);
+            
+        
+
+        circle_marker_c58130bde42c7646478980e13a8f5fa4.bindPopup(popup_24c3a51597186e34386c96038a8d2cb7)
+        ;
+
+        
+    
+    
+            var circle_marker_a0374c50bae58a7ccb12749beb37beea = L.circleMarker(
+                [-7.259637, 112.7354468],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_c9b21a34c1d0c1cd9e3257e57ed92842 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb44ce46e384352687c4c8e05e98dd9a = $(`<div id="html_bb44ce46e384352687c4c8e05e98dd9a" style="width: 100.0%; height: 100.0%;">Truk 6 | Alfamart</div>`)[0];
+                popup_c9b21a34c1d0c1cd9e3257e57ed92842.setContent(html_bb44ce46e384352687c4c8e05e98dd9a);
+            
+        
+
+        circle_marker_a0374c50bae58a7ccb12749beb37beea.bindPopup(popup_c9b21a34c1d0c1cd9e3257e57ed92842)
+        ;
+
+        
+    
+    
+            var circle_marker_64478f2949f89871d3918cc65327a795 = L.circleMarker(
+                [-7.2595987, 112.7353467],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_7eab37933245d0669c3bbec9b98628ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f23500843538e2941789117e41209ee = $(`<div id="html_5f23500843538e2941789117e41209ee" style="width: 100.0%; height: 100.0%;">Truk 6 | Indomaret</div>`)[0];
+                popup_7eab37933245d0669c3bbec9b98628ad.setContent(html_5f23500843538e2941789117e41209ee);
+            
+        
+
+        circle_marker_64478f2949f89871d3918cc65327a795.bindPopup(popup_7eab37933245d0669c3bbec9b98628ad)
+        ;
+
+        
+    
+    
+            var circle_marker_8668abb8f9cc7d9884a3c1f5515584ba = L.circleMarker(
+                [-7.2674771, 112.7343254],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_6b6c0b01c75ff14ad02cea7e3a629078 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0d610adb4a92feeda231d13e1ca4944 = $(`<div id="html_c0d610adb4a92feeda231d13e1ca4944" style="width: 100.0%; height: 100.0%;">Truk 6 | Indomaret</div>`)[0];
+                popup_6b6c0b01c75ff14ad02cea7e3a629078.setContent(html_c0d610adb4a92feeda231d13e1ca4944);
+            
+        
+
+        circle_marker_8668abb8f9cc7d9884a3c1f5515584ba.bindPopup(popup_6b6c0b01c75ff14ad02cea7e3a629078)
+        ;
+
+        
+    
+    
+            var circle_marker_15abaf41f816d81fd6fc47e8db2c59cd = L.circleMarker(
+                [-7.2668036, 112.7324223],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_ad7b35548561d6c5c8e9a47d392c666d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4fc691ada84c451cdc7fe33dd8bb1a3 = $(`<div id="html_a4fc691ada84c451cdc7fe33dd8bb1a3" style="width: 100.0%; height: 100.0%;">Truk 6 | Indomaret</div>`)[0];
+                popup_ad7b35548561d6c5c8e9a47d392c666d.setContent(html_a4fc691ada84c451cdc7fe33dd8bb1a3);
+            
+        
+
+        circle_marker_15abaf41f816d81fd6fc47e8db2c59cd.bindPopup(popup_ad7b35548561d6c5c8e9a47d392c666d)
+        ;
+
+        
+    
+    
+            var circle_marker_f2c1a87fe22818c029fec78bdea71940 = L.circleMarker(
+                [-7.261833, 112.7319933],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_4839c108a59b05dde90f6b261dff1d68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e4056aff3bc54fa3dfa0f5840916312 = $(`<div id="html_5e4056aff3bc54fa3dfa0f5840916312" style="width: 100.0%; height: 100.0%;">Truk 6 | Indomaret</div>`)[0];
+                popup_4839c108a59b05dde90f6b261dff1d68.setContent(html_5e4056aff3bc54fa3dfa0f5840916312);
+            
+        
+
+        circle_marker_f2c1a87fe22818c029fec78bdea71940.bindPopup(popup_4839c108a59b05dde90f6b261dff1d68)
+        ;
+
+        
+    
+    
+            var poly_line_e6110cf557f831816e33072e73ebf7e3 = L.polyline(
+                [[-7.2372, 112.6878], [-7.244732, 112.7155975], [-7.2482235, 112.7312195], [-7.2521183, 112.7442174], [-7.2597952, 112.74425], [-7.2604749, 112.7363576], [-7.259637, 112.7354468], [-7.2595987, 112.7353467], [-7.2674771, 112.7343254], [-7.2668036, 112.7324223], [-7.261833, 112.7319933], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_95ba8378d7f6f0ec15541e161f6e6670 = L.circleMarker(
+                [-7.2833752, 112.6884421],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_ad674b4b06af46fc2f7dfe74b10bcd4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06a25a9357db7bf48d462cfaa4e53fa9 = $(`<div id="html_06a25a9357db7bf48d462cfaa4e53fa9" style="width: 100.0%; height: 100.0%;">Truk 7 | Alfamart</div>`)[0];
+                popup_ad674b4b06af46fc2f7dfe74b10bcd4c.setContent(html_06a25a9357db7bf48d462cfaa4e53fa9);
+            
+        
+
+        circle_marker_95ba8378d7f6f0ec15541e161f6e6670.bindPopup(popup_ad674b4b06af46fc2f7dfe74b10bcd4c)
+        ;
+
+        
+    
+    
+            var circle_marker_bb725239eb40746eb0e87831fc0f613c = L.circleMarker(
+                [-7.284145, 112.6909433],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_4bf4426329178a5074e7aa789db5a007 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c3ebbdf36c66b5b944f05a413ebb2fd = $(`<div id="html_5c3ebbdf36c66b5b944f05a413ebb2fd" style="width: 100.0%; height: 100.0%;">Truk 7 | Indomaret</div>`)[0];
+                popup_4bf4426329178a5074e7aa789db5a007.setContent(html_5c3ebbdf36c66b5b944f05a413ebb2fd);
+            
+        
+
+        circle_marker_bb725239eb40746eb0e87831fc0f613c.bindPopup(popup_4bf4426329178a5074e7aa789db5a007)
+        ;
+
+        
+    
+    
+            var circle_marker_fd77d9e01b843e08430be50a5891df4a = L.circleMarker(
+                [-7.2811467, 112.6965393],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_4f11411e3ff4d6e3c4f9fa7069beb3e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ffa017242cd2f10e8d69ed65d337eb8 = $(`<div id="html_9ffa017242cd2f10e8d69ed65d337eb8" style="width: 100.0%; height: 100.0%;">Truk 7 | Indomaret</div>`)[0];
+                popup_4f11411e3ff4d6e3c4f9fa7069beb3e8.setContent(html_9ffa017242cd2f10e8d69ed65d337eb8);
+            
+        
+
+        circle_marker_fd77d9e01b843e08430be50a5891df4a.bindPopup(popup_4f11411e3ff4d6e3c4f9fa7069beb3e8)
+        ;
+
+        
+    
+    
+            var circle_marker_f216705e386adf026b8c4fab3778f2a3 = L.circleMarker(
+                [-7.2802299, 112.6976178],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_108538a51ea2f7ba7bf95051c2765caa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c62a9012adb2844ec7596aa1111e5fc5 = $(`<div id="html_c62a9012adb2844ec7596aa1111e5fc5" style="width: 100.0%; height: 100.0%;">Truk 7 | Indomaret</div>`)[0];
+                popup_108538a51ea2f7ba7bf95051c2765caa.setContent(html_c62a9012adb2844ec7596aa1111e5fc5);
+            
+        
+
+        circle_marker_f216705e386adf026b8c4fab3778f2a3.bindPopup(popup_108538a51ea2f7ba7bf95051c2765caa)
+        ;
+
+        
+    
+    
+            var circle_marker_2038ecdf06c07e8a26ca326b286ea4fe = L.circleMarker(
+                [-7.2883049, 112.7080141],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_854937b8b52c3fcdfe07ecf15054a1fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bba1b674e454c138fe8185de8e29421b = $(`<div id="html_bba1b674e454c138fe8185de8e29421b" style="width: 100.0%; height: 100.0%;">Truk 7 | Indomaret</div>`)[0];
+                popup_854937b8b52c3fcdfe07ecf15054a1fa.setContent(html_bba1b674e454c138fe8185de8e29421b);
+            
+        
+
+        circle_marker_2038ecdf06c07e8a26ca326b286ea4fe.bindPopup(popup_854937b8b52c3fcdfe07ecf15054a1fa)
+        ;
+
+        
+    
+    
+            var circle_marker_bb6ed69f20e9e40272c67ba5b2295efb = L.circleMarker(
+                [-7.2921153, 112.7269129],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_478206891e30dd2e0b144c0acaeae51f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c140f7f043aaba1ada542943cdc725c = $(`<div id="html_8c140f7f043aaba1ada542943cdc725c" style="width: 100.0%; height: 100.0%;">Truk 7 | Alfamart</div>`)[0];
+                popup_478206891e30dd2e0b144c0acaeae51f.setContent(html_8c140f7f043aaba1ada542943cdc725c);
+            
+        
+
+        circle_marker_bb6ed69f20e9e40272c67ba5b2295efb.bindPopup(popup_478206891e30dd2e0b144c0acaeae51f)
+        ;
+
+        
+    
+    
+            var circle_marker_c53b0a25ba4d64d92df9ac7b9c742280 = L.circleMarker(
+                [-7.2800989, 112.7304651],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_128772bfd6eb9911196fded56b3fa003 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fb16361e5fdc7d4a32f8c93c4f6562c = $(`<div id="html_4fb16361e5fdc7d4a32f8c93c4f6562c" style="width: 100.0%; height: 100.0%;">Truk 7 | Indomaret</div>`)[0];
+                popup_128772bfd6eb9911196fded56b3fa003.setContent(html_4fb16361e5fdc7d4a32f8c93c4f6562c);
+            
+        
+
+        circle_marker_c53b0a25ba4d64d92df9ac7b9c742280.bindPopup(popup_128772bfd6eb9911196fded56b3fa003)
+        ;
+
+        
+    
+    
+            var circle_marker_4316a565c7719774dc89e8f06da96a1b = L.circleMarker(
+                [-7.2755501, 112.7340943],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_518e42c0b80caca8aacb5e999287f240 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f98ed63b32a06b543eee9caad8fa9cc = $(`<div id="html_3f98ed63b32a06b543eee9caad8fa9cc" style="width: 100.0%; height: 100.0%;">Truk 7 | Indomaret</div>`)[0];
+                popup_518e42c0b80caca8aacb5e999287f240.setContent(html_3f98ed63b32a06b543eee9caad8fa9cc);
+            
+        
+
+        circle_marker_4316a565c7719774dc89e8f06da96a1b.bindPopup(popup_518e42c0b80caca8aacb5e999287f240)
+        ;
+
+        
+    
+    
+            var circle_marker_88e4edb6788204b19826324e944abcba = L.circleMarker(
+                [-7.2700943, 112.7288188],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_36e77519926459cfdf524c9cdaa50d4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_435509c3243554960820081ef3e408ce = $(`<div id="html_435509c3243554960820081ef3e408ce" style="width: 100.0%; height: 100.0%;">Truk 7 | Indomaret</div>`)[0];
+                popup_36e77519926459cfdf524c9cdaa50d4d.setContent(html_435509c3243554960820081ef3e408ce);
+            
+        
+
+        circle_marker_88e4edb6788204b19826324e944abcba.bindPopup(popup_36e77519926459cfdf524c9cdaa50d4d)
+        ;
+
+        
+    
+    
+            var poly_line_28de04c6d0bec7b8f6bbcab3195ea6ca = L.polyline(
+                [[-7.2372, 112.6878], [-7.2833752, 112.6884421], [-7.284145, 112.6909433], [-7.2811467, 112.6965393], [-7.2802299, 112.6976178], [-7.2883049, 112.7080141], [-7.2921153, 112.7269129], [-7.2800989, 112.7304651], [-7.2755501, 112.7340943], [-7.2700943, 112.7288188], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_a5d6b7eb75abe6dac421861b60a051ed = L.circleMarker(
+                [-7.2669529, 112.7084299],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_76186cbe29a6ae8100293752c1aa158e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb24b0e658484127f0e918e81521f642 = $(`<div id="html_bb24b0e658484127f0e918e81521f642" style="width: 100.0%; height: 100.0%;">Truk 8 | Indomaret</div>`)[0];
+                popup_76186cbe29a6ae8100293752c1aa158e.setContent(html_bb24b0e658484127f0e918e81521f642);
+            
+        
+
+        circle_marker_a5d6b7eb75abe6dac421861b60a051ed.bindPopup(popup_76186cbe29a6ae8100293752c1aa158e)
+        ;
+
+        
+    
+    
+            var circle_marker_51d6dcd4fc5b7e64636bc70004721e91 = L.circleMarker(
+                [-7.3173783, 112.7389915],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_d0df1980992649f721b2659854a72ff9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c7fb5342b9688c1bffbd6f4d8f9e441 = $(`<div id="html_3c7fb5342b9688c1bffbd6f4d8f9e441" style="width: 100.0%; height: 100.0%;">Truk 8 | Indomaret</div>`)[0];
+                popup_d0df1980992649f721b2659854a72ff9.setContent(html_3c7fb5342b9688c1bffbd6f4d8f9e441);
+            
+        
+
+        circle_marker_51d6dcd4fc5b7e64636bc70004721e91.bindPopup(popup_d0df1980992649f721b2659854a72ff9)
+        ;
+
+        
+    
+    
+            var circle_marker_5bd8d61364b37a32c1c57da64344f4ec = L.circleMarker(
+                [-7.3227163, 112.7420108],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_eb280947e99d319d5ad1084e1a101cee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_159f37ef8bf6b66c158686f0d209438c = $(`<div id="html_159f37ef8bf6b66c158686f0d209438c" style="width: 100.0%; height: 100.0%;">Truk 8 | Alfamart</div>`)[0];
+                popup_eb280947e99d319d5ad1084e1a101cee.setContent(html_159f37ef8bf6b66c158686f0d209438c);
+            
+        
+
+        circle_marker_5bd8d61364b37a32c1c57da64344f4ec.bindPopup(popup_eb280947e99d319d5ad1084e1a101cee)
+        ;
+
+        
+    
+    
+            var circle_marker_274eb0a01e0ede95fceda2a4fef2b1ea = L.circleMarker(
+                [-7.3256644, 112.7323705],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_cfeaf9f575989a5d34066c6d82e36389 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_956c9d173917b07415e36b325d1ec424 = $(`<div id="html_956c9d173917b07415e36b325d1ec424" style="width: 100.0%; height: 100.0%;">Truk 8 | Indomaret</div>`)[0];
+                popup_cfeaf9f575989a5d34066c6d82e36389.setContent(html_956c9d173917b07415e36b325d1ec424);
+            
+        
+
+        circle_marker_274eb0a01e0ede95fceda2a4fef2b1ea.bindPopup(popup_cfeaf9f575989a5d34066c6d82e36389)
+        ;
+
+        
+    
+    
+            var circle_marker_be5f6b24d0ccebbe49fe9dedbad82fb8 = L.circleMarker(
+                [-7.3270933, 112.730477],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_ac71218cac81ea38fe1b6c2d501c06b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9fb05f989883e35e341a772270fba2e = $(`<div id="html_d9fb05f989883e35e341a772270fba2e" style="width: 100.0%; height: 100.0%;">Truk 8 | Alfamart</div>`)[0];
+                popup_ac71218cac81ea38fe1b6c2d501c06b7.setContent(html_d9fb05f989883e35e341a772270fba2e);
+            
+        
+
+        circle_marker_be5f6b24d0ccebbe49fe9dedbad82fb8.bindPopup(popup_ac71218cac81ea38fe1b6c2d501c06b7)
+        ;
+
+        
+    
+    
+            var circle_marker_e0a8e74fa6bc2f3010d01d3fee743986 = L.circleMarker(
+                [-7.3354772, 112.7299734],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_9a70b2c5cf09c4365bc70cc321b50a40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7a62e8e41e9c7a5a6dccaffa61591e5 = $(`<div id="html_d7a62e8e41e9c7a5a6dccaffa61591e5" style="width: 100.0%; height: 100.0%;">Truk 8 | Indomaret</div>`)[0];
+                popup_9a70b2c5cf09c4365bc70cc321b50a40.setContent(html_d7a62e8e41e9c7a5a6dccaffa61591e5);
+            
+        
+
+        circle_marker_e0a8e74fa6bc2f3010d01d3fee743986.bindPopup(popup_9a70b2c5cf09c4365bc70cc321b50a40)
+        ;
+
+        
+    
+    
+            var circle_marker_656917cca4d6ffcff076fb55fbe3cbc8 = L.circleMarker(
+                [-7.3362267, 112.7304111],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_a7ba5d71677ceb6d6463ded4f3946114 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddf3ea87181679d9afa5e05966b7093a = $(`<div id="html_ddf3ea87181679d9afa5e05966b7093a" style="width: 100.0%; height: 100.0%;">Truk 8 | Indomaret</div>`)[0];
+                popup_a7ba5d71677ceb6d6463ded4f3946114.setContent(html_ddf3ea87181679d9afa5e05966b7093a);
+            
+        
+
+        circle_marker_656917cca4d6ffcff076fb55fbe3cbc8.bindPopup(popup_a7ba5d71677ceb6d6463ded4f3946114)
+        ;
+
+        
+    
+    
+            var circle_marker_8c6e1bb7c6bdcbb0426754d03c2fb2f4 = L.circleMarker(
+                [-7.3376819, 112.7296405],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_45a5f26827aaff9b9c0bf2301f3f6092 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5570913f0839318608a31d19f4c9740 = $(`<div id="html_f5570913f0839318608a31d19f4c9740" style="width: 100.0%; height: 100.0%;">Truk 8 | Indomaret</div>`)[0];
+                popup_45a5f26827aaff9b9c0bf2301f3f6092.setContent(html_f5570913f0839318608a31d19f4c9740);
+            
+        
+
+        circle_marker_8c6e1bb7c6bdcbb0426754d03c2fb2f4.bindPopup(popup_45a5f26827aaff9b9c0bf2301f3f6092)
+        ;
+
+        
+    
+    
+            var circle_marker_23f467c67351cf63a66bd6a72ad18aff = L.circleMarker(
+                [-7.3288061, 112.7226],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_a48e9423934ea72a6dca6c28666f0bd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d47ca55558be5c25ea7a062569bd02fa = $(`<div id="html_d47ca55558be5c25ea7a062569bd02fa" style="width: 100.0%; height: 100.0%;">Truk 8 | Alfamart</div>`)[0];
+                popup_a48e9423934ea72a6dca6c28666f0bd6.setContent(html_d47ca55558be5c25ea7a062569bd02fa);
+            
+        
+
+        circle_marker_23f467c67351cf63a66bd6a72ad18aff.bindPopup(popup_a48e9423934ea72a6dca6c28666f0bd6)
+        ;
+
+        
+    
+    
+            var circle_marker_1c150be9d104a6e2214bac9b95b7f80a = L.circleMarker(
+                [-7.2667259, 112.7047759],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_80eb9af420b58554f977011f36c9f0c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d68d41c2967533411b2e48b444b86409 = $(`<div id="html_d68d41c2967533411b2e48b444b86409" style="width: 100.0%; height: 100.0%;">Truk 8 | Indomaret</div>`)[0];
+                popup_80eb9af420b58554f977011f36c9f0c8.setContent(html_d68d41c2967533411b2e48b444b86409);
+            
+        
+
+        circle_marker_1c150be9d104a6e2214bac9b95b7f80a.bindPopup(popup_80eb9af420b58554f977011f36c9f0c8)
+        ;
+
+        
+    
+    
+            var poly_line_4af92790410ae5b313d4a0556ac564fb = L.polyline(
+                [[-7.2372, 112.6878], [-7.2669529, 112.7084299], [-7.3173783, 112.7389915], [-7.3227163, 112.7420108], [-7.3256644, 112.7323705], [-7.3270933, 112.730477], [-7.3354772, 112.7299734], [-7.3362267, 112.7304111], [-7.3376819, 112.7296405], [-7.3288061, 112.7226], [-7.2667259, 112.7047759], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_8c1746fc160a8a73f4848ceb26b6bb2e = L.circleMarker(
+                [-7.2288374, 112.6084176],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_25c5257ba98a1d1c27e9b1c721a42792 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2e1c1c9388ef71accf591cd747cc3df = $(`<div id="html_d2e1c1c9388ef71accf591cd747cc3df" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_25c5257ba98a1d1c27e9b1c721a42792.setContent(html_d2e1c1c9388ef71accf591cd747cc3df);
+            
+        
+
+        circle_marker_8c1746fc160a8a73f4848ceb26b6bb2e.bindPopup(popup_25c5257ba98a1d1c27e9b1c721a42792)
+        ;
+
+        
+    
+    
+            var circle_marker_5a91879a05ae02161014eb5ddebaef31 = L.circleMarker(
+                [-7.2358592, 112.6075169],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_31af5a4e33c9598087e4a48beec91185 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_745c1dce255534f387a7661a59196f82 = $(`<div id="html_745c1dce255534f387a7661a59196f82" style="width: 100.0%; height: 100.0%;">Truk 9 | Alfamart</div>`)[0];
+                popup_31af5a4e33c9598087e4a48beec91185.setContent(html_745c1dce255534f387a7661a59196f82);
+            
+        
+
+        circle_marker_5a91879a05ae02161014eb5ddebaef31.bindPopup(popup_31af5a4e33c9598087e4a48beec91185)
+        ;
+
+        
+    
+    
+            var circle_marker_cfc061fef7e1beae5797b96470583f3f = L.circleMarker(
+                [-7.2358804, 112.6074308],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_081de0406bc5aa0a6e4bc9761f57c212 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4235aa2341b4af162967d3b92c253187 = $(`<div id="html_4235aa2341b4af162967d3b92c253187" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_081de0406bc5aa0a6e4bc9761f57c212.setContent(html_4235aa2341b4af162967d3b92c253187);
+            
+        
+
+        circle_marker_cfc061fef7e1beae5797b96470583f3f.bindPopup(popup_081de0406bc5aa0a6e4bc9761f57c212)
+        ;
+
+        
+    
+    
+            var circle_marker_41e33a179aebcd4a65dcc1f46abed01e = L.circleMarker(
+                [-7.2621631, 112.6364746],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_85b2a3840af13e961a5d2e23d0f10e83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71b469dd17ca42ecf703db3a75a4e2de = $(`<div id="html_71b469dd17ca42ecf703db3a75a4e2de" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_85b2a3840af13e961a5d2e23d0f10e83.setContent(html_71b469dd17ca42ecf703db3a75a4e2de);
+            
+        
+
+        circle_marker_41e33a179aebcd4a65dcc1f46abed01e.bindPopup(popup_85b2a3840af13e961a5d2e23d0f10e83)
+        ;
+
+        
+    
+    
+            var circle_marker_3b4577796cffd5c38c164b1c09d3fe8e = L.circleMarker(
+                [-7.2851743, 112.6303664],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_b8e7fadf4c19f24174d2afb31ebea035 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3adb96b0cb81f0c111886a8356d14e86 = $(`<div id="html_3adb96b0cb81f0c111886a8356d14e86" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_b8e7fadf4c19f24174d2afb31ebea035.setContent(html_3adb96b0cb81f0c111886a8356d14e86);
+            
+        
+
+        circle_marker_3b4577796cffd5c38c164b1c09d3fe8e.bindPopup(popup_b8e7fadf4c19f24174d2afb31ebea035)
+        ;
+
+        
+    
+    
+            var circle_marker_9ef85d16847bc9bcb41373c990324658 = L.circleMarker(
+                [-7.3029554, 112.6321489],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_11ca0641f622882b6fea6f7acfdd4665 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c637f226d6c3ea116f6dbacbc998a195 = $(`<div id="html_c637f226d6c3ea116f6dbacbc998a195" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_11ca0641f622882b6fea6f7acfdd4665.setContent(html_c637f226d6c3ea116f6dbacbc998a195);
+            
+        
+
+        circle_marker_9ef85d16847bc9bcb41373c990324658.bindPopup(popup_11ca0641f622882b6fea6f7acfdd4665)
+        ;
+
+        
+    
+    
+            var circle_marker_a2d2836e659bd097f623ec82c28bd298 = L.circleMarker(
+                [-7.2895256, 112.654888],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_12aa6fda2ab5ae0525870cf7bc441642 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9b3fdf8c0f61eeacf1047561a2ec1d8 = $(`<div id="html_e9b3fdf8c0f61eeacf1047561a2ec1d8" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_12aa6fda2ab5ae0525870cf7bc441642.setContent(html_e9b3fdf8c0f61eeacf1047561a2ec1d8);
+            
+        
+
+        circle_marker_a2d2836e659bd097f623ec82c28bd298.bindPopup(popup_12aa6fda2ab5ae0525870cf7bc441642)
+        ;
+
+        
+    
+    
+            var circle_marker_9535ee14b2474425ed37ae960da0a5db = L.circleMarker(
+                [-7.2841139, 112.6703691],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_e69f22246267d4eeaf291371ec1bec5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e66a6f45e9b7be6711951b595e5687d0 = $(`<div id="html_e66a6f45e9b7be6711951b595e5687d0" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_e69f22246267d4eeaf291371ec1bec5e.setContent(html_e66a6f45e9b7be6711951b595e5687d0);
+            
+        
+
+        circle_marker_9535ee14b2474425ed37ae960da0a5db.bindPopup(popup_e69f22246267d4eeaf291371ec1bec5e)
+        ;
+
+        
+    
+    
+            var circle_marker_60ad6cc19f0916888b997e9d369bf8cd = L.circleMarker(
+                [-7.2783489, 112.6821547],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_4fd1b1ea8fb26318681eb75347c1ff33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e349a42295ba3b5f1343a0212cdc961 = $(`<div id="html_5e349a42295ba3b5f1343a0212cdc961" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_4fd1b1ea8fb26318681eb75347c1ff33.setContent(html_5e349a42295ba3b5f1343a0212cdc961);
+            
+        
+
+        circle_marker_60ad6cc19f0916888b997e9d369bf8cd.bindPopup(popup_4fd1b1ea8fb26318681eb75347c1ff33)
+        ;
+
+        
+    
+    
+            var circle_marker_5de9e725fe60ab20231a5dae04a3a100 = L.circleMarker(
+                [-7.2774477, 112.6836865],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_5d8f4070fb3174887f24373834d32376 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56f2e1927e8fc80594f4f185a423b111 = $(`<div id="html_56f2e1927e8fc80594f4f185a423b111" style="width: 100.0%; height: 100.0%;">Truk 9 | Indomaret</div>`)[0];
+                popup_5d8f4070fb3174887f24373834d32376.setContent(html_56f2e1927e8fc80594f4f185a423b111);
+            
+        
+
+        circle_marker_5de9e725fe60ab20231a5dae04a3a100.bindPopup(popup_5d8f4070fb3174887f24373834d32376)
+        ;
+
+        
+    
+    
+            var poly_line_27b3a4d1c3b5aad0a106da830f838941 = L.polyline(
+                [[-7.2372, 112.6878], [-7.2288374, 112.6084176], [-7.2358592, 112.6075169], [-7.2358804, 112.6074308], [-7.2621631, 112.6364746], [-7.2851743, 112.6303664], [-7.3029554, 112.6321489], [-7.2895256, 112.654888], [-7.2841139, 112.6703691], [-7.2783489, 112.6821547], [-7.2774477, 112.6836865], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+            var circle_marker_bd43fc088262beded2a5bdaf5a3d66e7 = L.circleMarker(
+                [-7.2332722, 112.7298606],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_da6569cddd3b6dd7060a894c03bba074 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_775a67d1f015ca1dd7312ab04ac70e0d = $(`<div id="html_775a67d1f015ca1dd7312ab04ac70e0d" style="width: 100.0%; height: 100.0%;">Truk 10 | Indomaret</div>`)[0];
+                popup_da6569cddd3b6dd7060a894c03bba074.setContent(html_775a67d1f015ca1dd7312ab04ac70e0d);
+            
+        
+
+        circle_marker_bd43fc088262beded2a5bdaf5a3d66e7.bindPopup(popup_da6569cddd3b6dd7060a894c03bba074)
+        ;
+
+        
+    
+    
+            var circle_marker_1268c47f0f86c1c8929ae4a047db046d = L.circleMarker(
+                [-7.2280621, 112.7307326],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_75545da89201bfb9c75f82fe5ac0b4ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59a86a5662821772b9e1cf76310bff85 = $(`<div id="html_59a86a5662821772b9e1cf76310bff85" style="width: 100.0%; height: 100.0%;">Truk 10 | Indomaret</div>`)[0];
+                popup_75545da89201bfb9c75f82fe5ac0b4ea.setContent(html_59a86a5662821772b9e1cf76310bff85);
+            
+        
+
+        circle_marker_1268c47f0f86c1c8929ae4a047db046d.bindPopup(popup_75545da89201bfb9c75f82fe5ac0b4ea)
+        ;
+
+        
+    
+    
+            var circle_marker_0dc26fb6eda6a4d04715853a6768f7dd = L.circleMarker(
+                [-7.2194404, 112.732292],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_7f69ba521675c90974b4c8178e270bbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c448f2f2ebe503d625f0219f8ea345ba = $(`<div id="html_c448f2f2ebe503d625f0219f8ea345ba" style="width: 100.0%; height: 100.0%;">Truk 10 | Alfamart</div>`)[0];
+                popup_7f69ba521675c90974b4c8178e270bbd.setContent(html_c448f2f2ebe503d625f0219f8ea345ba);
+            
+        
+
+        circle_marker_0dc26fb6eda6a4d04715853a6768f7dd.bindPopup(popup_7f69ba521675c90974b4c8178e270bbd)
+        ;
+
+        
+    
+    
+            var circle_marker_845461b74a2a5b464386058ef794a282 = L.circleMarker(
+                [-7.2223213, 112.7356794],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_9c13318e08e70d3c705130acd616b221 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48aacc2f02addcd8c57c2c42cfeaade5 = $(`<div id="html_48aacc2f02addcd8c57c2c42cfeaade5" style="width: 100.0%; height: 100.0%;">Truk 10 | Indomaret</div>`)[0];
+                popup_9c13318e08e70d3c705130acd616b221.setContent(html_48aacc2f02addcd8c57c2c42cfeaade5);
+            
+        
+
+        circle_marker_845461b74a2a5b464386058ef794a282.bindPopup(popup_9c13318e08e70d3c705130acd616b221)
+        ;
+
+        
+    
+    
+            var circle_marker_65dae2f4460c8d31c51df9a8d9cb425f = L.circleMarker(
+                [-7.2271683, 112.7358681],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_ec8b654102de6451e777c7da6213cecf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28f56625f5e81b5943f35c0537f2b3ab = $(`<div id="html_28f56625f5e81b5943f35c0537f2b3ab" style="width: 100.0%; height: 100.0%;">Truk 10 | Indomaret</div>`)[0];
+                popup_ec8b654102de6451e777c7da6213cecf.setContent(html_28f56625f5e81b5943f35c0537f2b3ab);
+            
+        
+
+        circle_marker_65dae2f4460c8d31c51df9a8d9cb425f.bindPopup(popup_ec8b654102de6451e777c7da6213cecf)
+        ;
+
+        
+    
+    
+            var circle_marker_f9932333ec43074e32ee9d85e24ad21e = L.circleMarker(
+                [-7.2323809, 112.7434828],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_7903594a6bf57f5db407168a5ce04c56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df006cbd928a59acb9cfc8d4654241cf = $(`<div id="html_df006cbd928a59acb9cfc8d4654241cf" style="width: 100.0%; height: 100.0%;">Truk 10 | Alfamart</div>`)[0];
+                popup_7903594a6bf57f5db407168a5ce04c56.setContent(html_df006cbd928a59acb9cfc8d4654241cf);
+            
+        
+
+        circle_marker_f9932333ec43074e32ee9d85e24ad21e.bindPopup(popup_7903594a6bf57f5db407168a5ce04c56)
+        ;
+
+        
+    
+    
+            var circle_marker_ff1b182828a66a394a62412393bd4170 = L.circleMarker(
+                [-7.2394753, 112.7291692],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+    
+        var popup_e17a8163849adfd97b132acfc8126874 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71d98ac8216a75d3e34639e84fd04b8e = $(`<div id="html_71d98ac8216a75d3e34639e84fd04b8e" style="width: 100.0%; height: 100.0%;">Truk 10 | Indomaret</div>`)[0];
+                popup_e17a8163849adfd97b132acfc8126874.setContent(html_71d98ac8216a75d3e34639e84fd04b8e);
+            
+        
+
+        circle_marker_ff1b182828a66a394a62412393bd4170.bindPopup(popup_e17a8163849adfd97b132acfc8126874)
+        ;
+
+        
+    
+    
+            var poly_line_44b2bcca3edf1264ecdb1b3fde6efa60 = L.polyline(
+                [[-7.2372, 112.6878], [-7.2332722, 112.7298606], [-7.2280621, 112.7307326], [-7.2194404, 112.732292], [-7.2223213, 112.7356794], [-7.2271683, 112.7358681], [-7.2323809, 112.7434828], [-7.2394753, 112.7291692], [-7.2372, 112.6878]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_68fc28ae505ff3af028f96f5455f9d86);
+        
+</script>
+</html>
