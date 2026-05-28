@@ -37,10 +37,10 @@ distance traveled?
 ## 🗺️ Route Comparison
 
 **Baseline — Nearest Neighbour**
-![Baseline Routes](images/vrp_baseline.png)
+![Baseline Routes](nearestneighbour.png)
 
 **Optimized — OR-Tools**
-![Optimized Routes](images/vrp_ortools.png)
+![Optimized Routes](or_tools.png)
 
 ---
 
