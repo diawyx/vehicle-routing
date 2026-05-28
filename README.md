@@ -20,7 +20,7 @@ distance traveled?
 ---
 
 ## 🗺️ Store Distribution
-![Store Map](image.png)
+![Store Map](minimarket.png)
 
 ---
 
